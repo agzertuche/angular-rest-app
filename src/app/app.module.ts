@@ -16,6 +16,7 @@ import { ItemDetailComponent } from './items/item-detail/item-detail.component';
 import { HomeComponent } from './home/home.component';
 import { WidgetsComponent } from './widgets/widgets.component';
 import { WidgetService } from './shared';
+import { ReviewsComponent } from './reviews/reviews.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,9 @@ import { WidgetService } from './shared';
     ItemsComponent,
     ItemsListComponent,
     ItemDetailComponent,
-    WidgetsComponent
+    WidgetsComponent,
+    ReviewsComponent,
+    ReviewsComponent
   ],
   imports: [
     BrowserAnimationsModule,
